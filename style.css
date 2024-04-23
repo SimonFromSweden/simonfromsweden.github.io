@@ -1,6 +1,7 @@
 header {
    background-image: url(./worldBanner.jpg);
    height: 350px;
+   width: 70%;
    background-repeat: no-repeat;
    margin-left: 50px;
 }
