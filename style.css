@@ -1,90 +1,29 @@
-* {
-   font-family: monospace;
-}
-
-.wrapper {
-   width: 80rem;
-   margin: 0 auto;
-   /*background-color: rgb(87, 194, 126);*/
-}
-
 header {
-   display: flex;
-   justify-content: space-around;
+   background-image: url(images/worldBanner.jpg);
+   height: 350px;
+   background-repeat: no-repeat;
+   margin-left: 50px;
 }
 
-header nav {
-   height: 12rem;
-   margin-top: 1rem;
-   margin-right: 0.25rem;
+header h1 {
+   color: white;
+   font-size: 4rem;
+   padding: 15px 0 0 120px;
 }
 
-header img {
-   margin-top: 1.25rem;
-   height: 12rem;
+input {
+   font-size: 35px;
+   margin-left: 300px;
 }
 
-header nav ul li {
-   list-style: none;
-   padding: 4px;
-   margin: 2.5 0;
-   border: groove;
-   width: 10vw;
-   text-align: center;
-   font-size: 18px;
-   font-weight: bolder;
-}
-
-main {
-   grid-area: main;
-   margin-right: 0.25rem;
-}
-
-main p {
-   padding-right: 1rem;
-   font-size: 15px;
-}
-
-main fig figcaption {
-   text-align: center;
-   margin-bottom: 1rem;
+#Fact {
    font-style: italic;
+   font-size: 22px;
+   padding-left: 100px;
 }
 
-aside {
-   grid-area: asid;
-   margin-top: 2rem;
-   margin-left: 0.25rem;
-   font-size: 13px;
-}
-
-h1 {
+#factDiv {
+   padding-top: 30px;
+   width: 700px;
    text-align: center;
-   margin-top: 1rem;
-   margin-bottom: 1rem;
-}
-
-.maingrid {
-   display: grid;
-   grid-template-columns: "1fr 1fr 1fr 1fr 1fr";
-   grid-template-rows: "1fr";
-   grid-template-areas: "main main main main asid";
-}
-
-.spinners {
-   display: flex;
-   justify-content: column;
-}
-
-footer {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   margin-top: 1rem;
-}
-
-footer div img {
-   margin-left: 1.5rem;
-   width: 50px;
-   height: 50px;
 }
